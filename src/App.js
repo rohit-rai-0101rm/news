@@ -51,7 +51,7 @@ const App = () => {
             <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Go back</Typography></div>
           </div>
         ) : null}
-        <img src="https://alan.app/voice/images/previews/preview.jpg" className={classes.alanLogo} alt="logo" />
+        <img src="https://alan.app/static/mainIll.35028f97.svg" className={classes.alanLogo} alt="logo" />
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
